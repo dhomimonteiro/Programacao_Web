@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variáveis com reatribuição</title>
+
+    <script>
+        {
+            var x = 10;
+            console.log("Dentro do bloco com var (inicial): " + x);
+            x = 20;
+            console.log("var (após a reatribuição): " + x);
+        }
+
+        {
+            let y = 30;
+            console.log("Dentro do bloco com let (inicial): " + y);
+            y = 40;
+            console.log("let (após a reatribuição): " + y)
+        }
+
+        {
+            const z = 50;
+            console.log("Dentro do bloco com const (inicial): " + z);
+            z = 60;
+            console.log("const (após a reatribuição): " + z);
+        }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        p:first-child {
+            color: black;
+            font-size: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        p {
+            font-size: 25px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(83, 33, 141);
+            text-align: center;
+            margin: 25px 0;
+        }
+
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        button {
+            background-color: rgb(163, 151, 233);
+            color: #fcfcfc;
+            border: none;
+            border-radius: 40px;
+            padding: 10px;
+            margin: 0 50px;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+            transition: 0.3s;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Variáveis com reatribuição</p>
+    <p>Opere com o console do navegador</p>
+
+    <div>
+        <a href="/index.html">
+            <button>Formulário de Dados</button>
+        </a>
+        <a href="/vars.html">
+            <button>Variáveis fora de escopo</button>
+        </a>
+    </div>
+</body>
+
+</html>
