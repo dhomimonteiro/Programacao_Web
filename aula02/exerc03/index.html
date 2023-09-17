@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML + CSS</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form class="formCalculadora" id="formCalculadora">
+        <label for="valor1">Valor 1:</label>
+        <input type="text" name="valor1" id="valor1">
+        <br>
+        <label for="valor2">Valor 2:</label>
+        <input type="text" name="valor2" id="valor2">
+        <br>
+        <label>Opções:</label>
+        <br>
+        <input type="radio" name="operacao" id="soma">SOMA
+        <br>
+        <input type="radio" name="operacao" id="subtracao">SUBSTRAÇÃO
+        <br>
+        <input type="radio" name="operacao" id="multiplicacao">MULTIPLICAÇÃO
+        <br>
+        <input type="radio" name="operacao" id="divisao">DIVISÃO
+        <br>
+        <label for="resultado">Resultado:</label>
+        <input type="text" id="resultado">
+        <button type="button" id="calcular" style="margin-top: 10px;">Calcular</button>
+    </form>
+</body>
+</html>
