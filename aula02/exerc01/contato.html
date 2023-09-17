@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="./imgs/imagem1.png" alt="">
+        <div class="navegacao">
+            <a href="./index.html" class="navegacao home" id="home">Home</a>
+            <a href="./blog.html" class="navegacao blog" id="blog">Blog</a>
+            <a href="./pagina1.html" class="navegacao pagina1" id="pagina1">Página 1</a>
+            <a href="./pagina2.html" class="navegacao pagina2" id="pagina2">Página 2</a>
+            <a href="./contato.html" class="navegacao contato" id="contato">Contato</a>
+        </div>
+    </header>
+    <main>
+        <h1>Contato</h1>
+        <h2>Entre em contato conosco</h2>
+        <p>Preencha o formulário abaixo:</p>
+        <div class="nome">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome aqui">
+        </div>
+        <br>
+
+        <div class="email">
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email">
+        </div>
+        <br>
+        <div class="sexo">
+            <label for="sexo">Sexo:</label><br>
+            <input type="radio" name="campoSexo" id="masculino" value="masc">Masculino
+            <br>
+            <input type="radio" name="campoSexo" id="feminino" value="fem">Feminino
+        </div>
+        
+        <br>
+        <div class="assunto">
+            <label for="assunto">Assunto:</label>
+            <br>
+            <select name="assunto" id="assunto">
+                <option value="">Selecione uma opção</option>
+                <option value="blog">Blog</option>
+                <option value="home">Home</option>
+                <option value="pagina1">Página 1</option>
+                <option value="pagina2">Página 2</option>
+                <option value="contato">Contato</option>
+            </select>
+           <br>
+            
+            <textarea name="assunto" id="" cols="30" rows="3" placeholder="Sua mensagem aqui" style="margin-top: 20px;"></textarea>
+        </div>
+        
+        <br>
+        <input type="submit" value="ENVIAR">
+    </main>
+    <footer>
+        <hr>
+        ©2023 Dhomênica
+
+    </footer>
+</body>
+
+</html>
