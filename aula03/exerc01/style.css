@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo{
+    background-color: rgb(164, 111, 199);
+    padding: 30px 10px;
+    color: white;
+    font-size: 1.4em;
+}
+p{
+    font-size: 20px;
+    margin: 10px 30px;
+}
+
+button{
+    margin: 0 30px;
+    height: 30px;
+    width: 90px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(0,0,0,0.2);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.resultadoTitulo{
+    margin-top: 30px;
+}
+.resultado{
+    margin: 0 30px;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(179, 217, 223);
+    text-align: center;
+}
+.resultado p{
+    line-height: 100px;
+}
