@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.titulo{
+    padding: 30px;
+    background-color: rgb(97, 156, 79);
+    color: whitesmoke;
+}
+.inputTitulo{
+    margin-top: 20px;
+    font-size: 20px;
+}
+button{
+    margin-top: 20px;
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(0,0,0,0.2);
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+.resultado{
+    margin-top: 20px;
+    font-size: 20px;
+}
