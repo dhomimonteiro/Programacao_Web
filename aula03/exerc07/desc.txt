@@ -1,0 +1,1 @@
+Write a script that reads a person's name, their birth year and the actual year. Calculate their age and then show it with their name, in different lines.
