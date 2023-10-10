@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+    height: 70px;
+    line-height: 70px;
+    background-color: violet;
+    color: white;
+
+    text-align: center;
+    cursor: pointer;
+
+}
+.titulo h1{
+    transition: .2s;
+}
+.titulo h1:hover {
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.paragrafos {
+    margin-top: 20px;
+    text-align: center;
+    height: 100px;
+}
+.paragrafos p{
+    height: 20px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 0 10px;
+    justify-content: center;
+}
+.botoes .botao{
+    height: 25px;
+    width: 60px;
+    cursor: pointer;
+}
+#typeof{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
