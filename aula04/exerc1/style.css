@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    background-color: rgb(163, 67, 50);
+    color: white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragrafos {
+    height: 150px;
+    background-color: rgb(211, 189, 161);
+    padding: 20px;
+}
+.paragrafos p {
+    height: 20px;
+    line-height: 20px;
+}
+
+.botoes {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 0 10px;
+}
+.botoes button{
+    height: 30px;
+    width: 50px;
+}
+.lista{
+    display: flex;
+    justify-content: center;
+}
+#lista{
+    margin: 20px 40px;
+    text-align: center;
+}
