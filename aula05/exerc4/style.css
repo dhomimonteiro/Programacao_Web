@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, table td, table th {
+    border: 1px solid black;
+}
+
+.titulo {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: slategrey;
+    color: white;
+}
+.desc{
+    margin: 20px 0;
+    
+    font-size: 20px;
+    text-align: center;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    gap: 0 50px;
+}
+.conteudo .col1 {
+    display: flex;
+    flex-direction: column;
+}
+.conteudo .col1 .botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 0 30px;
+}
+.conteudo .col1 .botoes button {
+    height: 30px;
+    width: 150px;
+}
+.conteudo .col1 .resultado p {
+    line-height: 40px;
+}
+.conteudo .col1 .resultado span {
+    font-weight: bold;
+}
